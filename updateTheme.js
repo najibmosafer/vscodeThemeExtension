@@ -37,7 +37,7 @@ function updateTheme() {
     ]
   };
 
-  const themePath = path.join(__dirname, 'themes', 'theme-color-rahdarnajib.json');
+  const themePath = path.join(__dirname, 'themes', 'theme color force-color-theme.json');
   fs.writeFileSync(themePath, JSON.stringify(theme, null, 2));
 }
 
