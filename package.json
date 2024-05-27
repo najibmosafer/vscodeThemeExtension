@@ -1,0 +1,50 @@
+{
+  "name": "theme-color-rahdarnajib",
+  "displayName": "theme color rahdarnajib",
+  "description": "tst testi",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "image/icon.png",
+  "contributes": {
+    "configuration": {
+      "type": "object",
+      "title": "theme-color-rahdarnajib Configuration",
+      "properties": {
+        "themeColorRahdarNajib.commentColor": {
+          "type": "string",
+          "default": "#FFA500",
+          "description": "Color for comments"
+        },
+        "themeColorRahdarNajib.stringColor": {
+          "type": "string",
+          "default": "#CE9178",
+          "description": "Color for strings"
+        },
+        "themeColorRahdarNajib.keywordColor": {
+          "type": "string",
+          "default": "#569CD6",
+          "description": "Color for keywords"
+        }
+      }
+    },
+    "themes": [
+      {
+        "label": "Theme Color RahdarNajib",
+        "uiTheme": "vs-dark",
+        "path": "./themes/theme-color-rahdarnajib.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "vscode": "^1.1.37"
+  }
+}
